@@ -1,0 +1,83 @@
+html {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-55 {
+    width: 6.5rem;
+}
+
+.h-50 {
+    height: 5rem;
+}
+
+.h-20 {
+    height: 2rem;
+}
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-items-center {
+    justify-items: center;
+}
+
+.gap-4 {
+    gap: 4px;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+.box-shadow {
+    box-shadow: 0 1px 1px #e0e0e0;
+}
+
+.menu-item-shadow {
+    box-shadow: 1px 1px 1px #a1a0a0;
+}
+
+.round-25 {
+    border-radius: 25px;
+}
+
+.grid-auto-flow-column {
+    grid-auto-flow: column;
+}
+
+.padding-2 {
+    padding: 2rem;
+}
