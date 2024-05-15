@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.grid-container {
+    display: grid;
+    gap: 0.5rem;
+    justify-self: stretch;
+    align-self: stretch;
+}
+
+.grid-cols-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.block-container {
+    display: block;
+}
+
+.py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.content-center {
+    align-content: center;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.border-solid {
+    border-style: solid;
+}
+
+.border {
+    border-width: 1px;
+}
+.rounded {
+    border-radius: 0.25rem;
+}
+
+.shadow {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.w-40 {
+    width: 35rem;
+}
+
+.w-22 {
+    width: 22rem;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-40 {
+    height: 40px;
+}
+
+.col-span-2 {
+    grid-column: span 2 / span 2;
+}
+
+.p-6 {
+    padding: 1.5rem;
+}
+
+.ml-6 {
+    margin-left: 1rem;
+}
+
+.px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+
+.py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.bg-gray-50 {
+    --bg-opacity: 1;
+    background-color: rgb(248 250 252);
+}
+
+.bg-gray-100 {
+    --bg-opacity: 1;
+    background-color: #F7F9FA;
+    background-color: rgba(247, 249, 250, var(--bg-opacity));
+}
+
+.bg-blue-600 {
+    --bg-opacity: 1;
+    background-color: #1572e6;
+    background-color: rgba(21, 114, 230, var(--bg-opacity));
+}
+
+.bg-submit-600 {
+    --bg-opacity: 1;
+    background-color: #1572e6;
+    color: #fff;
+}
+
+.bg-divide {
+    --bg-opacity: 1;
+    background-color: #ec8a3e;
+    color: #fff;
+}
+
+.bg-divide:hover {
+    --bg-opacity: 1;
+    background-color: #e67419;
+    color: #fff;
+}
+
+.bg-multiply {
+    --bg-opacity: 1;
+    background-color: #ea4a3c;
+    color: #fff;
+}
+
+.bg-multiply:hover {
+    background-color: #ea2817;
+}
+
+.bg-submit-600:hover {
+    background-color: #26528a;
+}
+
+.border-none {
+    border: none;
+}
+
+
+.text-gray-700 {
+    --text-opacity: 1;
+    color: #87949E;
+    color: rgba(135, 148, 158, var(--text-opacity));
+}
+
+.bg-white {
+    --bg-opacity: 1;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, var(--bg-opacity));
+}
+
+.form-input {
+    position: relative;
+    width: 100%;
+}
+
+.form-input input::placeholder {
+    opacity: 0;
+}
+
+.form-input input {
+    width: 100%;
+    height: 40px;
+    font-size: 0.8rem;
+    padding: 10px;
+    outline: none;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-input label {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: gray;
+    letter-spacing: 1px;
+    transition: .3s;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.form-input input:focus + label,
+.form-input input:not(:placeholder-shown) + label
+{
+    top: 0;
+    font-size: .7rem;
+    color: #1845f4;
+    background: #fff;
+    padding: 7px;
+}
+
+.form-input input:focus {
+    border: 2px solid #1845f4;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
